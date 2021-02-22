@@ -1,0 +1,36 @@
+.colorPickerContainer {
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    border-radius: 0 0 30px 30px;
+    display: grid;
+    grid-template-columns: 470px;
+    grid-template-rows: minmax(500px, auto) auto;
+    grid-row-gap: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+.colorCollectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 10px;
+}
+
+.addBtn {
+    width: 100%;
+    border-radius: 7px;
+    
+}
+
+.picker {
+    border: 3px solid red;
+    /* padding: 50px; */
+}

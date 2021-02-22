@@ -1,0 +1,45 @@
+.Layout {
+    /* height: 100vh; */
+    background-color: #2F4F4F;
+    padding: 20px;
+    display: grid;
+    /* grid-template-rows: 200px 200px 200px; */
+}
+
+#Toolbar {
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+
+.Items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0;
+    padding: 4px;
+
+}
+
+li a {
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    outline: none;
+    /* border: 4px double green; */
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.Content {
+    margin-top: 16px;
+}
